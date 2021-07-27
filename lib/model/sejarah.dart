@@ -1,0 +1,14 @@
+String imageSejarah = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/State_Polytechnics_of_Andalas.JPG/800px-State_Polytechnics_of_Andalas.JPG";
+
+String sejarah =
+"""
+Politeknik Negeri Padang didirikan pada tahun 1987, dimana keberadaan Politeknik merupakan salah satu dari 17 (tujuh belas) Politeknik pertama di Indonesia, yang bertujuan menjawab tantangan perkembangan dunia industri dan dunia usaha yang menuntut kompetensi dari tenaga-tenaga kerja terampil, professional dan mandiri yang lebih mengutamakan attitude, knowledge dan skill serta kompeten dibidangnya.
+
+Pada awal berdirinya dikenal dengan nama Politeknik Engineering Universitas Andalas, yang hanya menyelenggarakan Program Studi Bidang Rekayasa/keteknikan. Dengan Program Studi Teknik Mesin, Sipil, Listrik dan Elektronika Komunikasi. Tahun 1997 diganti nama menjadi Politeknik Universitas Andalas, dengan pertimbangan karena dibuka Program Studi Bidang Tataniaga (Akuntansi, Administrasi Bisnis). Dalam rangka memenuhi tuntutan dunia kerja maka Politeknik membuka program studi baru, sampai saat ini Politeknik telah mempunyai 20 Program Studi ( 12 program studi D.3 dan 8 program D.4).
+
+Dalam rangka menuju Kemandiriannya maka Politeknik saat itu mempunyai dua nama yaitu Politeknik Universitas Andalas dan Politeknik Negeri Padang.
+Politeknik Negeri Padang hadir di tengah-tengah masyarakat dengan menerapkan sistem pendidikan yang konsisten pada jalur pendidikan vokasional dengan menerapkan sistem pembelajaran yang aplikatif serta secara terus menerus menyesuaikan diri dengan perkembangan dunia industri dan dunia usaha yang ada untuk menghasilkan tenaga kerja yang berkompeten sesuai dengan permintaan pasar dan mampu bersaing pada era persaingan global.
+Sebagai lembaga pendidikan yang mengutamakan mutu dan kepercayaan dunia industri dan dunia usaha Politeknik Negeri Padang menerapkan sistem paket semester dengan sistem pembelajaran 60 % praktek dan 40 % teori .Penerapan sistem praktek bengkel yang menyamai sistem di industri dan dunia usaha merupakan suatu langkah konsistensi untuk menyiapkan Tenaga Ahli Madya (Amd) dan Sarjana Sain Terapan (SST) yang terampil dan mempunyai etos kerja sesuai kebutuhan industri.
+
+Rancangan kurikulum pendidikan yang bersifat dinamis yang dirancang sesuai dengan kebutuhan industri/pasar dan tetap mengacu kepada peraturan pemerintah serta undang- undang pendidikan yang berlaku, merupakan suatu langkah strategis yang diterapkan di Politeknik Negeri Padang dalam menghasilkan lulusan yang sangat diminati oleh dunia usaha dan dunia industri terkemuka di Indonesia dan di manca negara.
+""";
