@@ -18,6 +18,16 @@ class DetailJurusan extends StatelessWidget {
               Stack(
                 alignment: Alignment.bottomLeft,
                 children: <Widget>[
+                  Hero(
+                    tag: jurusan.nama,
+                    child: Material(
+                      child: Ink.image(
+                        height: 200,
+                        image: NetworkImage(jurusan.imageUrl),
+                        fit: BoxFit.fitWidth,
+                      ),
+                    ),
+                  ),
                   Padding(
                     padding: const EdgeInsets.all(8),
                     child: Text(
@@ -27,11 +37,6 @@ class DetailJurusan extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           fontSize: 24),
                     ),
-                  ),
-                  Ink.image(
-                    height: 200,
-                    image: NetworkImage(jurusan.imageUrl),
-                    fit: BoxFit.fitWidth,
                   ),
                   Positioned(
                     top: 0,
@@ -108,9 +113,12 @@ class DetailJurusan extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(4),
         child: ListTile(
-          title: Text(
-            prodi.namaProdi,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+          title: Hero(
+            tag: prodi.namaProdi,
+            child: Text(
+              prodi.namaProdi,
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+            ),
           ),
           leading: IconTheme(
             data: IconThemeData(size: 32),

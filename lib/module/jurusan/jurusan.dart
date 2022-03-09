@@ -59,10 +59,12 @@ class JurusanPage extends StatelessWidget {
                   ),
                   Hero(
                     tag: jurusan,
-                    child: Ink.image(
-                      height: 200,
-                      image: NetworkImage(imageUrl),
-                      fit: BoxFit.fitWidth,
+                    child: Material(
+                      child: Ink.image(
+                        height: 200,
+                        image: NetworkImage(imageUrl),
+                        fit: BoxFit.fitWidth,
+                      ),
                     ),
                   ),
                 ],

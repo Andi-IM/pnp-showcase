@@ -19,12 +19,15 @@ class DetailProdi extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.all(8),
-                    child: Text(
-                      prodi.namaProdi,
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 24),
+                    child: Hero(
+                      tag: prodi.namaProdi,
+                      child: Text(
+                        prodi.namaProdi,
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 24),
+                      ),
                     ),
                   ),
                   Ink.image(
