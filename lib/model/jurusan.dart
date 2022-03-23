@@ -5,23 +5,6 @@ class Jurusan {
   List<Prodi> prodi;
 
   Jurusan({this.nama, this.imageUrl, this.deskripsi, this.prodi});
-
-  Map<String, dynamic> toMap() {
-    var map = <String, dynamic>{
-      'nama': nama,
-      'deskripsi': deskripsi,
-      'imageUrl': imageUrl,
-      'prodi': prodi
-    };
-    return map;
-  }
-
-  Jurusan.fromMap(Map<String, dynamic> map) {
-    nama = map['nama'];
-    deskripsi = map['deskripsi'];
-    imageUrl = map['imageUrl'];
-    prodi = map['prodi'];
-  }
 }
 
 class Prodi {
@@ -37,21 +20,6 @@ class Prodi {
       this.badge,
       this.imageUrl,
       this.fasilitas});
-
-  Map<String, dynamic> toMap() {
-    var map = <String, dynamic>{
-      'namaProdi': namaProdi,
-      'deskripsi': deskripsi,
-      'fasilitas': fasilitas
-    };
-    return map;
-  }
-
-  Prodi.fromMap(Map<String, dynamic> map) {
-    namaProdi = map['namaProdi'];
-    deskripsi = map['deskripsi'];
-    fasilitas = map['fasilitas'];
-  }
 }
 
 var daftarJurusan = [
